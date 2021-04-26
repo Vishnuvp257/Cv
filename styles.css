@@ -1,0 +1,42 @@
+body {
+  background-color:#f39189;
+}
+hr{
+  border-style: none;
+  border-color: grey;
+  width: 30%;
+  border-top-style: dashed;
+  border-width:4px;
+}
+img {
+  height:270px;
+  width: 250px;
+  border-radius: 100%;
+}
+h1 {
+  color:#19435;
+}
+h3 {
+  color: #FFFFFF;
+  background-color: #000000;
+  text-align:center;
+}
+p{
+  font-family: sans-serif;
+}
+ul{
+  list-style-type: disc;
+}
+label{
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 18px;
+}
+.submit{
+  font-family: sans-serif;
+  background-color: dodgerblue;
+  font-weight: bolder;
+}
+#contact{
+  background-color: burlywood;
+}

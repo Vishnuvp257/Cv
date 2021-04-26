@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style media="screen">
+    p{
+       font-style: oblique;
+       font-weight: bold;
+       font-size: 18px;
+     }
+    </style>
+
+    <meta charset="utf-8">
+    <title>Contact</title>
+       <link rel="stylesheet" href="styles.css">
+  </head>
+  <body id="contact">
+<form action="mailto:viratprakashvp@gmail.com" method="post" enctype="text/plain">
+  <label for="name">Enter your Name :</label>
+  <input type="text" name="name" id="name" placeholder="username" required>
+
+  <select class="gender" name="gender">
+    <option value="male">Male</option>
+    <option value="Female">Female</option>
+    <option value="others">others</option>
+  </select><br><br>
+
+  <label for="email">Enter your email :</label>
+  <input type="email" name="email" id="email" placeholder="email" required>
+  <br><br>
+  <label for="password">Enter Password :</label>
+  <input type="password" name="password" id="password" placeholder="password" required>
+  <br><br>
+
+  <p>Select Your age;</p>
+  <input type="radio" name="age" value="0-25" id="option1">
+  <label for="age">0-25</label>
+
+  <input type="radio" name="age" value="25-50" id="option2">
+  <label for="age">25-50</label>
+
+  <input type="radio" name="age" value="50+" id="option3">
+  <label for="age">50 above</label><br><br>
+
+  <input list="district" name="district" value="" placeholder="select" required>
+  <datalist id="district">
+    <option value="Tuticorin"></option>
+    <option value="Madurai"></option>
+    <option value="Trichy"></option>
+  </datalist>
+
+  <p>Enter your Bio:</p>
+  <textarea name="message" rows="10" cols="30" placeholder="any text here..."></textarea>
+
+  <br><br>
+
+  <input type="submit" class="submit" value="Submit Form">
+</form>
+  </body>
+</html>
